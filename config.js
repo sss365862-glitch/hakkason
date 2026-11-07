@@ -13,14 +13,14 @@ const SETTINGS = {
 const PREFIXES = ["", "超", "究極超絶", "終焉究極超絶"];
 
 // 感情の系統。images に画像のパスを入れると、その形態だけ画像で表示する
-// 例：images: ["img/aseri1.png", "img/aseri2.png", "", ""]
+// 例：images: ["aseri1.png", "aseri2.png", "", ""]
 // 空欄や読み込み失敗のときは図形で表示する
 const EMOTIONS = {
-  "焦り":     { shape: "triangle", color: "#f5c518", base: "アセリム", images: ["img/aseri1.webp", "img/aseri2.webp", "img/aseri3.webp", "img/aseri4.webp"] },
-  "恐怖":     { shape: "diamond",  color: "#9b5de5", base: "コワルム", images: ["img/kowarum1.webp", "img/kowarum2.webp", "img/kowarum3.webp", "img/kowarum4.webp"] },
-  "怒り":     { shape: "star",     color: "#ef233c", base: "イカルム", images: ["img/ikarum1.webp", "img/ikarum2.webp", "img/ikarum3.webp", "img/ikarum4.webp"] },
-  "恥ずかしさ": { shape: "circle",   color: "#ff70a6", base: "テレム",   images: ["img/terem1.webp", "img/terem2.webp", "img/terem3.webp", "img/terem4.webp"] },
-  "後悔":     { shape: "square",   color: "#3a86ff", base: "クイルム", images: ["img/kuirum1.webp", "img/kuirum2.webp", "img/kuirum3.webp", "img/kuirum4.webp"] },
+  "焦り":     { shape: "triangle", color: "#f5c518", base: "アセリム", images: ["aseri1.webp", "aseri2.webp", "aseri3.webp", "aseri4.webp"] },
+  "恐怖":     { shape: "diamond",  color: "#9b5de5", base: "コワルム", images: ["kowarum1.webp", "kowarum2.webp", "kowarum3.webp", "kowarum4.webp"] },
+  "怒り":     { shape: "star",     color: "#ef233c", base: "イカルム", images: ["ikarum1.webp", "ikarum2.webp", "ikarum3.webp", "ikarum4.webp"] },
+  "恥ずかしさ": { shape: "circle",   color: "#ff70a6", base: "テレム",   images: ["terem1.webp", "terem2.webp", "terem3.webp", "terem4.webp"] },
+  "後悔":     { shape: "square",   color: "#3a86ff", base: "クイルム", images: ["kuirum1.webp", "kuirum2.webp", "kuirum3.webp", "kuirum4.webp"] },
 };
 
 // 予備ルート（AIが応答しないとき）。「遅刻した」の1本だけ
